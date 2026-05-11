@@ -35,7 +35,7 @@ class VideoAdapter(
 
         Glide.with(holder.itemView.context)
             .load(video.snippet.thumbnails.medium.url)
-            .placeholder(R.drawable.ic_launcher_background)
+            .R.drawable.placeholder
             .into(holder.thumbnail)
 
         holder.itemView.setOnClickListener { onItemClick(video) }
