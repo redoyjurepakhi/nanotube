@@ -1,6 +1,5 @@
 package com.nanotube.ui.adapter
 
-import com.nanotube.R
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
