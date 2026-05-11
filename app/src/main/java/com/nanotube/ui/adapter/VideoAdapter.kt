@@ -35,7 +35,7 @@ class VideoAdapter(
 
         Glide.with(holder.itemView.context)
             .load(video.snippet.thumbnails.medium.url)
-            .R.drawable.placeholder
+            .placeholder(com.nanotube.R.drawable.placeholder)
             .into(holder.thumbnail)
 
         holder.itemView.setOnClickListener { onItemClick(video) }
